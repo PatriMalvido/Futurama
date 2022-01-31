@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.034e2bcb.css",
+    "main.js": "./static/js/main.beb58ba2.js",
+    "static/media/wallpaperflare.com_wallpaper.jpg": "./static/media/wallpaperflare.com_wallpaper.898641fb584621891aaf.jpg",
+    "static/media/logo.png": "./static/media/logo.606f971e9b8a718d3f5b.png",
+    "index.html": "./index.html",
+    "main.034e2bcb.css.map": "./static/css/main.034e2bcb.css.map",
+    "main.beb58ba2.js.map": "./static/js/main.beb58ba2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.034e2bcb.css",
+    "static/js/main.beb58ba2.js"
+  ]
+}
