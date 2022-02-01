@@ -33,7 +33,7 @@ if (props.character=== undefined){
 
         <section className="modal__card">
           <img
-            className="card__img"
+            className="modal__card-img"
             src={props.character.image}
             alt={`Foto de ${props.character.name}`}
             title={`Foto de ${props.character.name}`}

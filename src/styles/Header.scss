@@ -2,16 +2,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-// background: no-repeat center;
-//         height:100px;
-// 	width: 100%;
-// 	background-size: contain;
-//   background-image: url('../images/toppng.com-futurama-1202x773.png');
 
-//   &__title {
-//     display: flex;
-//     align-items: center;
-//   }
 &__img{
     background-image: url(../images/logo.png);
     width: 100%;
@@ -20,6 +11,9 @@
     background-repeat: no-repeat;
     margin: 30px;
     background-position-x: center;
+    @media all and (max-width:768px){
+    width: 90%;
+    }
 }
   &__menu {
     display: flex;
