@@ -20,6 +20,9 @@ body {
   bottom: 0;
   top: 0;
   background-color: rgb(75, 73, 73);
+  @media all and (max-width:768px){
+    width: 50vh;
+  }
 }
 
 .cards {
@@ -58,6 +61,11 @@ body {
     padding: 10px;
     width: 200px;
     height: 250px;
+    @media all and (max-width:768px){
+      width: 80px;
+      height: 125px;
+      padding: 0;
+    }
   }
   &__title {
     font-size: 1.5rem;
@@ -91,9 +99,17 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   margin-left: 50px;
+  @media all and (max-width:768px){
+    font-size: .8rem;
+    margin-left: 0;
+    padding: 5px;
+  }
 }
 .modal__title {
   color: white;
+  @media all and (max-width:768px){
+    font-size: 1rem;
+  }
 }
 .modal__card {
   display: flex;
@@ -110,6 +126,10 @@ body {
   box-shadow: 0 10px 10px 10px rgba(252, 249, 249, 0.1);
   border-radius: 8px;
   align-items: center;
+  @media all and (max-width:768px){
+    width: 250px;
+    height: 250px;
+  }
 
   &-text {
     list-style: none;
@@ -119,6 +139,9 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 20px;
+    @media all and (max-width:768px){
+      font-size: 1rem;
+    }
   }
 }
 .container__about {
@@ -150,7 +173,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
+  @media all and (max-width:768px){
+    min-height: 60vh;
+  }
 }
 
 .app {

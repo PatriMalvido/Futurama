@@ -25,12 +25,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media all and (max-width:768px){
+      
+    }
 
 
     &-item {
       display: inline;
       padding: 30px;
       list-style: none;
+      @media all and (max-width: 768px){
+        padding: 6px;
+      }
     
       font-size: 1.4rem;
       font-family: 'Rajdhani', sans-serif;
@@ -40,6 +46,10 @@
         list-style: none;
         text-decoration: none;
         color: white;
+        @media all and (max-width:768px){
+          font-size: 1rem;
+         
+        }
     }
   }
 }
